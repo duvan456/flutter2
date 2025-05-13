@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 import 'package:application_medicines/auth_controller.dart';
 import 'package:application_medicines/medication_controller.dart';
@@ -13,7 +14,7 @@ import 'package:application_medicines/screen/register_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-
+  await dotenv.load(fileName: ".env");
   final notificationService = NotificationService();
   await notificationService.initNotification();
 

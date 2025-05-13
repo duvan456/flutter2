@@ -14,3 +14,10 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+.env
+
+APPWRITE_ENDPOINT=https://fra.cloud.appwrite.io/v1
+APPWRITE_PROJECT_ID=67eb25c000089fc271a3
+APPWRITE_DATABASE_ID=67eb269700137818306e
+APPWRITE_COLLECTION_ID=68228cd70000424e4e69
